@@ -1,5 +1,11 @@
+import { ButtonsContainer } from "@/components/ButtonsContainer"
+
+
+
 export const Homepage = () => {
   return(
-    <>This is homepage</>
+    <>
+    <div><ButtonsContainer /></div>
+    This is homepage</>
   )
 }
