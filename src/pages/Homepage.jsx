@@ -9,7 +9,6 @@ export const Homepage = () => {
         <ButtonsContainer />  
         <TakeATour />
         <InfoCards />
-        <p>Challo</p>
       </div>
     </>
   );
