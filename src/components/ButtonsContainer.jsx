@@ -1,10 +1,12 @@
-import { Button } from "./ui/button"
+import { Button } from './ui/button';
 
 export const ButtonsContainer = () => {
-    return (
-        <>
+  return (
+    <>
+      <div className='flex flex-row gap-2 justify-center'>
         <Button>Button 1</Button>
         <Button>Button 2</Button>
-        </>
-    )
-}
+      </div>
+    </>
+  );
+};

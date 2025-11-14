@@ -1,11 +1,12 @@
-import { ButtonsContainer } from "@/components/ButtonsContainer"
-
-
+import { ButtonsContainer } from '@/components/ButtonsContainer';
 
 export const Homepage = () => {
-  return(
+  return (
     <>
-    <div><ButtonsContainer /></div>
-    This is homepage</>
-  )
-}
+      <div className='h-screen overflow-y-auto'>
+        <ButtonsContainer />
+        <p>Challo</p>
+      </div>
+    </>
+  );
+};
