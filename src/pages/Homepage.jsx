@@ -1,4 +1,5 @@
 import { ButtonsContainer } from '@/components/ButtonsContainer';
+import { InfoCards } from '@/components/InfoCards';
 import { TakeATour } from '@/components/TakeATour';
 
 export const Homepage = () => {
@@ -6,7 +7,8 @@ export const Homepage = () => {
     <>
       <div className='h-screen overflow-y-auto'>
         <ButtonsContainer />  
-        <TakeATour />      
+        <TakeATour />
+        <InfoCards />
         <p>Challo</p>
       </div>
     </>

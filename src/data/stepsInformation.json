@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "stepNumber": 1,
+    "stepDescription": "This is content for step 1"
+  },
+  {
+    "id": 1,
+    "stepNumber": 2,
+    "stepDescription": "This is content for step 2"
+  },
+  {
+    "id": 2,
+    "stepNumber": 3,
+    "stepDescription": "This is content for step 3"
+  },
+  {
+    "id": 3,
+    "stepNumber": 4,
+    "stepDescription": "This is content for step 4"
+  },
+  {
+    "id": 4,
+    "stepNumber": 5,
+    "stepDescription": "This is content for step 5"
+  },
+  {
+    "id": 5,
+    "stepNumber": 6,
+    "stepDescription": "This is content for step 6"
+  }
+]
