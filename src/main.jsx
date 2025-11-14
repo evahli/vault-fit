@@ -4,6 +4,8 @@ import { App } from "./App.jsx";
 import "./index.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createBrowserRouter, RouterProvider } from "react-router";
+import { Homepage } from "./pages/Homepage.jsx";
+import { Booking } from "./pages/Booking.jsx";
 
 // Create a client
 const queryClient = new QueryClient();
@@ -15,12 +17,12 @@ const router = createBrowserRouter([
     //errorElement: <ErrorPage />,
     children: [
     {
-      //path: "/",
-      //element: <HomePage />,
+      path: "/",
+      element: <Homepage />,
     },
     {
-      //path: "/about",
-      //element: <AboutPage />
+      path: "/booking",
+      element: <Booking />
     },
     ],
   },
