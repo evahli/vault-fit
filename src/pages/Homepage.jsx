@@ -3,6 +3,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { ImageCarousel } from '@/components/imageCarousel';
 import { InfoCards } from '@/components/InfoCards';
 import { IntroText } from '@/components/IntroText';
+import { Pricing } from '@/components/Pricing';
 
 
 export const Homepage = () => {
@@ -12,6 +13,7 @@ export const Homepage = () => {
         <IntroText />
         <ImageCarousel />
         <InfoCards />
+        <Pricing />
         <FAQSection />
       </div>
     </>
