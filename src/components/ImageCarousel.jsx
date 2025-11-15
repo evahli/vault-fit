@@ -11,7 +11,7 @@ import placeholder from '../images/placeholder-image-carousel.jpg';
 export const ImageCarousel = () => {
   return (
     <>
-      <div className='w-screen m-4'>
+      <div className='w-full px-4 py-4'>
         <Carousel className="w-full max-w-xs mx-auto">
           <CarouselContent>
             <CarouselItem>
@@ -44,7 +44,7 @@ export const ImageCarousel = () => {
           <CarouselNext/>
         </Carousel>
       </div>
-      <div className='className="max-w-prose mx-auto px-10 mt-8 space-y-2 text--text leading-loose"'>
+      <div className='max-w-prose mx-auto px-10 mt-8 space-y-2 text--text leading-loose'>
         <p>Our gym is the best gym</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
