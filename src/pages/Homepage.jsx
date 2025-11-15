@@ -1,4 +1,5 @@
 import { ButtonsContainer } from '@/components/ButtonsContainer';
+import { FAQSection } from '@/components/FAQSection';
 import { ImageCarousel } from '@/components/imageCarousel';
 import { InfoCards } from '@/components/InfoCards';
 import { IntroText } from '@/components/IntroText';
@@ -11,6 +12,7 @@ export const Homepage = () => {
         <IntroText />
         <ImageCarousel />
         <InfoCards />
+        <FAQSection />
       </div>
     </>
   );
