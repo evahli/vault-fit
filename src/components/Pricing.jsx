@@ -1,6 +1,6 @@
 export const Pricing = () => {
     return (
-        <div className="max-w-3xl mx-auto px-4 py-12 text-center">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
             <h2 className="text-3xl text-gold-light font-bold text-center mb-8">Pricing</h2>
             <p>45 min ... 270 Kc</p>
             <p>90 min ... 405 Kc</p>

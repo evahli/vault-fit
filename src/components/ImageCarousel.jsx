@@ -44,7 +44,7 @@ export const ImageCarousel = () => {
           <CarouselNext/>
         </Carousel>
       </div>
-      <div className='max-w-prose mx-auto px-10 mt-8 space-y-2 text--text leading-loose'>
+      <div className='max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text--text leading-loose'>
         <p>Our gym is the best gym</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
