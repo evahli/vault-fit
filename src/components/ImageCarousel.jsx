@@ -11,31 +11,31 @@ import placeholder from '../images/placeholder-image-carousel.jpg';
 export const ImageCarousel = () => {
   return (
     <>
-      <div className='w-screen'>
+      <div className='w-screen m-4'>
         <Carousel className="w-full max-w-xs mx-auto">
           <CarouselContent>
             <CarouselItem>
-              <img src={placeholder} alt="placeholder"/>
+              <img src={placeholder} alt="placeholder" className='rounded-2xl'/>
               <p className="text-center pt-4">Description of first image</p>
             </CarouselItem>
             <CarouselItem>
-              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" className='rounded-2xl'/>
               <p className="text-center pt-4">Description of second image</p>
             </CarouselItem>
             <CarouselItem>
-              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" className='rounded-2xl'/>
               <p className="text-center pt-4">Description of third image</p>
             </CarouselItem>
             <CarouselItem>
-              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" className='rounded-2xl'/>
               <p className="text-center pt-4">Description of fourth image</p>
             </CarouselItem>
             <CarouselItem>
-              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" className='rounded-2xl'/>
               <p className="text-center pt-4">Description of fifth image</p>
             </CarouselItem>
             <CarouselItem>
-              <img src={placeholder} alt="placeholder" />
+              <img src={placeholder} alt="placeholder" className='rounded-2xl'/>
               <p className="text-center pt-4">Description of sixth image</p>
             </CarouselItem>
           </CarouselContent>
