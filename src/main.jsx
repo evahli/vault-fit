@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import { Homepage } from "./pages/Homepage.jsx";
 import { Booking } from "./pages/Booking.jsx";
 import { Terms } from "./pages/Terms.jsx";
+import { TakeATour } from "./pages/TakeATour.jsx";
 
 // Create a client
 const queryClient = new QueryClient();
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     {
       path: "/terms",
       element: <Terms />
+    },
+    {
+      path: "/take-a-tour",
+      element: <TakeATour />
     },
     ],
   },
