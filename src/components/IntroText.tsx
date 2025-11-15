@@ -1,6 +1,6 @@
 export const IntroText = () => {
   return (
-    <div className="p-4 text-center">
+    <div className="max-w-prose mx-auto px-10 mt-8 space-y-2 text--text leading-loose">
       <h2 className="text-xl">Intro text</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
