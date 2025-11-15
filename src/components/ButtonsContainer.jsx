@@ -3,15 +3,13 @@ import { Button } from './ui/button';
 
 export const ButtonsContainer = () => {
   return (
-    <>
-      <div className='flex flex-col gap-2 justify-center md:flex-row'>
-        <Button asChild className="text-xl bg-gold-light text-black rounded-full">
-          <Link to="/booking">Book now</Link>
-        </Button>
-        <Button asChild className="text-xl bg-gold-light text-black rounded-full">
-          <Link to="/take-a-tour">Take the tour</Link>
-        </Button>
-      </div>
-    </>
+    <div className='flex items-center gap-3'>
+      <Button asChild className="bg-transparent border-2 border-gold-light text-gold-light hover:bg-gold-light hover:text-background rounded-full transition-all hover:scale-105">
+        <Link to="/take-a-tour">Take a Tour</Link>
+      </Button>
+      <Button asChild className="bg-gold-light text-background hover:bg-gold-warm rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105">
+        <Link to="/booking">Book Now</Link>
+      </Button>
+    </div>
   );
 };
