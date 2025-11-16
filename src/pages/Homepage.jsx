@@ -1,6 +1,5 @@
-import { ButtonsContainer } from '@/components/ButtonsContainer';
 import { FAQSection } from '@/components/FAQSection';
-import { ImageCarousel } from '@/components/imageCarousel';
+import { ImageCarousel } from '@/components/ImageCarousel';
 import { InfoCards } from '@/components/InfoCards';
 import { IntroText } from '@/components/IntroText';
 import { Pricing } from '@/components/Pricing';

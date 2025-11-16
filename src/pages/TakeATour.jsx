@@ -1,9 +1,10 @@
 import { BackButton } from "@/components/BackButton";
+import { TourCard } from "@/components/TourCard";
 
 export const TakeATour = () => {
   return (
     <div>
-      <p>Take a tour</p>
+      <TourCard />
       <BackButton />
     </div>
   );
